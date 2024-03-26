@@ -1,0 +1,36 @@
+
+body {
+    background-image: url("https://sofiri.com/wp-content/uploads/2019/04/FlKu3-1140x600-2.jpg");
+    background-size: cover;
+}
+button {
+    background-color: #b8e3e3;
+    margin: 10px;
+    font-family: Tahoma;
+}
+#output {
+    color: #000000;
+    font-family: Georgia;
+    border-radius: 10px;
+    background:#fcf5d9;
+    padding: 20px; 
+    width: 500px;
+    height: 300px;  
+    overflow: scroll;
+}
+label {
+    font-family: Verdana;
+}
+header {
+    text-align: center;
+    font-family: Verdana;
+    color: #010720;
+}
+footer {
+    font-family: Verdana;
+    color: black;
+    width: 300px;
+}
+.flex-container {
+    display: flex;
+}

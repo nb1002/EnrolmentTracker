@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="enrolment tracker" />
+  <meta name="keywords"    content="distinction task" />
+  <meta name="author"      content="Nomun Buyanbat" />
+  <title>Subject Enrolment Tracker</title>
+  <link href="dtask2.css" rel="stylesheet" type="text/css">
+  <script src="dtask2.js"></script>
+</head>
+<body>
+<header>
+  <h1>Tracking Subject Enrolments and Completions</h1>
+</header>
+<div class = "flex-container">
+  <div>
+    <article>
+    <h2>Enrolments</h2>
+      <div>
+        <button id="listEnrolmentsButton">List enrolments</button>
+        <button id="sortEnrolmentsByNameButton">Sort all enrolments by name</button>
+        </br>
+        <label>Enter Student ID
+          <input type="text" id="searchEnrolmentsInput"/>
+          <button id="searchEnrolmentsButton">Search</button>
+        </label>
+        </br>
+        <label>Enter Student ID
+          <input type="text" id="deleteEnrolmentInput"/>
+          <button id="deleteEnrolmentButton">Delete Enrolment</button>
+        </label>
+        </br>
+        <label>
+          Enter Student ID
+          <input type="text" id="updateMarkIdInput"/>
+        </label>
+        <label>
+          Student mark
+          <input type="text" id="updateMarkNumInput"/>
+          <button id="updateMarkButton">Update mark</button>
+        </label>
+        </br>
+        <button id="resetEnrolmentsButton">Reset Enrolment List</button>
+      </div>
+    </article>
+<hr/>
+    <article>
+      <h2>Completions</h2>
+      <div>
+        <button id="listCompletionsButton">List all completions</button>
+        <button id="countHDsButton">Count HDs</button>
+        <button id="completionStatisticsButton">Completion Statistics</button>
+        </br>
+        <label>Enter Student ID
+          <input type="text" id="searchCompletionsInput"/>
+          <Button id="searchCompletionsButton">Search</Button>
+        </label>
+        </br>
+        <button id="sortCompletionsByMarksAscButton">Sort in Ascending order of marks</button>
+        <button id="sortCompletionsByMarksDescButton">Sort in Descending order of marks</button>
+        <button id="sortCompletionsByNameButton">Sort completions by Name</button>
+        </br>
+        <button id="removeCompletionsButton">Remove all completions</button>
+      </div>
+    </article>
+  </div>
+<hr/>
+  <div>
+    <p id="output"></p>
+  </div>
+</div>
+<hr/>
+<footer><p>Produced by Nomun Buyanbat 103473935</p></footer>  
+</body>
+</html>
